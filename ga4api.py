@@ -21,13 +21,12 @@ st.set_page_config(
     page_title="Google Analytics Data Dashboard",
     page_icon="🚀",
     layout="wide",  
-    initial_sidebar_state="auto",  # You can also use "expanded" or "collapsed"
+    initial_sidebar_state="auto", 
 )
 
 # Set up Streamlit app title
 st.title("📈 SEO Data Dashboard")
 st.divider()
-# Sidebar with user inputs
 st.sidebar.header("Add your filters here👇")
 
 property_id = "338303541"
